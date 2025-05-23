@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Add margin to all icons inside .social-media, .marketplace, and .chat */
+.social-media a,
+.marketplace a,
+.chat a {
+    margin: 0 8px 8px 0;
+    display: inline-block;
+}
+.social-media img,
+.marketplace img,
+.chat img {
+    vertical-align: middle;
+}
+.social-icons a,
+.marketplace-links a,
+
+.address {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.description {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
